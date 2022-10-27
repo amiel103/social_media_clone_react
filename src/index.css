@@ -5,9 +5,126 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8a7ba;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.login , .SignUp {
+  max-width: 150px;
+  border: 1px solid grey;
+  margin: 10px;
+  padding:25px;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 10px 2px gray;
+}
+
+.loginButtons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding:2px;
+}
+
+.loginButton{
+  width: 60px;
+  max-height: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.8;
+  height:50px;
+  box-shadow: 0px 0px 10px 4px gray;
+}
+.h3 > h3, .logout{
+  margin: 10px;
+  color: #f8a7ba;
+}
+
+.h3{
+  display: flex;
+}
+
+h3.logout:hover {
+  margin: 10px;
+  color: white;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.Post{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  max-width: 500px;
+  margin-top: 25px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 10px 1px gray;
+  padding: 15px;
+  
+}
+
+.Post > h6{
+  margin: 1px;
+}
+
+.writePost{
+  display: flex;
+  justify-content:center;
+  max-width: 500px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 10px 1px gray;
+  margin: auto;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.writePost > .textArea{
+  display: flex;
+  justify-content:center;
+  margin: auto;
+  margin-top: 10000px;
+ 
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 90%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#fc9eb4;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 5px 3px #999;
+}
+
+
